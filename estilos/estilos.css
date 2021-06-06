@@ -1,0 +1,560 @@
+﻿* {
+  /* margin: 0 auto; */
+  font-family: lato;
+  overflow-x: hidden;
+} 
+
+
+
+.play{
+  width: 200px;
+  height: 300px;
+  background-color: #ffffff;
+  left: 500px;
+  box-shadow: 0 0 1em #CCC;
+  float: left;
+  margin-right: 32px;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+#pause{
+  margin: 0;
+  position: absolute;
+  margin-top: 72px;
+  margin-left: 83px;
+}
+
+#capaAlbum{
+  width: 150px;
+  height: 150px;
+  margin-top: 16px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 16px;
+}
+
+.nomeMusica {
+  font-size: 16px;
+  color: #424242;
+  font-family: lato;
+  font-weight: 900;
+  margin-left: 16px;
+  margin-bottom: 10px;
+
+}
+
+.nomeAlbum {
+  font-size: 16px;
+  color: #707070;
+  font-family: lato;
+  font-weight: 200;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+
+.colegem {
+  height: 100vh;
+}
+
+.playlist{
+  width: 770px;
+  height: 350px;
+  margin-top: 100px;
+  overflow-x: scroll;
+  left: 0;
+}
+
+.bio{
+  margin-top: 108px;
+}
+
+@media (min-width: 360px) { 
+
+  #fundoCapa{
+    display: none;
+  }
+
+  .home{
+    height: 100vh;
+    margin: auto;
+  }
+
+  #logo{
+    width: 335px;
+    height: 169px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+  }
+
+  #elis{
+      width: 184px;
+      height: 277px;
+      margin: 0;
+      position: absolute;
+      top: 45%;
+      z-index: 1;
+    
+  }
+  #elza{
+      width: 187px;
+      height: 281px;
+      margin: 0;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      z-index: 1;
+    }
+    #rita{
+        width: 191px;
+        height: 244px;
+        margin: 0;
+        position: absolute;
+        top: 77%;
+        left: -5%;
+        z-index: 2;
+      }
+    #maria{
+      width: 254px;
+      height: 328px;
+      margin: 0;
+      position: absolute;
+      top: 68%;
+      left: 25%;
+      z-index: 2;
+    }
+    #liniker{
+      width: 170px;
+      height: 254px;
+      margin: 0;
+      position: absolute;
+      top: 71%;
+      left: 70%;
+      z-index: 2;
+    }
+
+    .h2t{
+      font-size: 22px;
+      color: #9E54BD;
+      font-family: lato;
+    }
+
+    .pCorpo {
+      font-size: 14px;
+      color: #424242;
+      line-height: 32px;
+    } 
+
+    #mpb{
+      margin: 0;
+      width: 100%;
+      right: 0;
+    }
+  
+    #elisFinal{
+      margin: 0;
+      width: 100%;
+      left: 0;
+    }
+
+    #elzaFinal{
+      width: 100%;
+      right: 0;
+    }
+
+    #ritaFinal{
+      width: 100%;
+      left: 0;
+    }
+
+    #mariaFinal{
+      width: 100%;
+      right: 0;
+    }
+
+    #linikerFinal{
+      width: 100%;
+      left: 0;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+  /* .height-80{
+    height: 100vh;
+  } */
+
+  #fundoCapa{
+    display: none;
+  }
+
+  #logo{
+    width: 335px;
+    height: 169px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    
+  }
+
+  /* #elis{
+      width: 184px;
+      height: 277px;
+      margin: 0;
+      position: absolute;
+      top: 45%;
+      z-index: 1;
+    
+  }
+  #elza{
+      width: 187px;
+      height: 281px;
+      margin: 0;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      z-index: 1;
+    }
+    #rita{
+        width: 191px;
+        height: 244px;
+        margin: 0;
+        position: absolute;
+        top: 72%;
+        left: -5%;
+        z-index: 2;
+      }
+    #maria{
+      width: 254px;
+      height: 328px;
+      margin: 0;
+      position: absolute;
+      top: 61%;
+      left: 25%;
+      z-index: 2;
+    }
+    #liniker{
+      width: 170px;
+      height: 254px;
+      margin: 0;
+      position: absolute;
+      top: 71%;
+      left: 70%;
+      z-index: 2;
+    } */
+
+    .h2t{
+      font-size: 22px;
+      color: #9E54BD;
+      font-family: lato;
+    }
+
+    .pCorpo {
+      font-size: 14px;
+      color: #424242;
+      line-height: 32px;
+    } 
+
+    #mpb{
+      margin: 0;
+      width: 100%;
+      
+    }
+
+    #elisFinal{
+      margin: 0;
+      width: 100%;
+    }
+
+    #elzaFinal{
+      width: 100%;
+      right: 0;
+    }
+
+    #ritaFinal{
+      width: 100%;
+      left: 0;
+    }
+
+    #mariaFinal{
+      width: 100%;
+      right: 0;
+    }
+
+    #linikerFinal{
+      width: 100%;
+      left: 0;
+    }
+
+    
+  #elis{
+    width: 25%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 72%;
+    left: 0%;
+    z-index: 0;
+  }
+  #elza{
+      width: 25%;
+      height: auto;
+      margin: 0;
+      position: absolute;
+      top: 72%;
+      left: 155px;
+      z-index: 0;
+    }
+    #rita{
+        width: 25%;
+        height: auto;
+        margin: 0;
+        position: absolute;
+        top: 76%;
+        left: 330px;
+        z-index: 0;
+      }
+    #maria{
+      width: 28%;
+      height: auto;
+      margin: 0;
+      position: absolute;
+      top: 73%;
+      left: 460px;
+      z-index: 0;
+    }
+    #liniker{
+      width: 23%;
+      height: auto;
+      margin: 0;
+      position: flex;
+      top: 74%;
+      left: 590px;
+      z-index: 0;
+    }
+
+    
+ }
+
+
+@media (min-width: 992px) {  
+  /* .height-80{
+    height: 100vh;
+  } */
+
+  #mpb{
+    margin: 0;
+  }
+
+  #logo{
+    margin: 0;
+    top: 30%;
+    left: 30%;
+    margin-right: -50%;
+  }
+
+  #elisFinal{
+    width: 100%;
+    left: 0;
+  }
+
+  #elzaFinal{
+    width: 100%;
+    right: 0;
+  }
+
+  #ritaFinal{
+    width: 100%;
+    left: 0;
+  }
+
+  #mariaFinal{
+    width: 100%;
+    right: 0;
+  }
+
+  #linikerFinal{
+    width: 100%;
+    left: 0;
+  }
+
+  #elis{
+    width: 250px;
+    height: 375px;
+    margin: 0;
+    position: absolute;
+    top: 63%;
+    left: 0%;
+    z-index: 0;
+  
+}
+#elza{
+    width: 250px;
+    height: 375px;
+    margin: 0;
+    position: absolute;
+    top: 63%;
+    left: 180px;
+    z-index: 0;
+  }
+  #rita{
+      width: 257px;
+      height: 328px;
+      margin: 0;
+      position: absolute;
+      top: 68%;
+      left: 400px;
+      z-index: 0;
+    }
+  #maria{
+    width: 285px;
+    height: 367px;
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 580px;
+    z-index: 0;
+  }
+  #liniker{
+    width: 230px;
+    height: 343px;
+    margin: 0;
+    position: flex;
+    top: 66%;
+    left: 800px;
+    z-index: 0;
+  }
+
+}
+
+
+@media (min-width: 1200px) { 
+  .height-80{
+    height: 100vh;
+  }
+
+  /* .home{
+    background-image: url(imagens/background.png);
+  } */
+
+  .navbar-nav {
+    margin-left: 800px;
+  }
+
+  #fundoCapa{
+    margin: o;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    display: flex;
+  }
+
+  #mpb{
+    margin: 0;
+    position: absolute;
+    right: 0px;
+    width: 40%;
+  }
+
+  #elisFinal{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    width: 30%;
+  }
+
+  #elzaFinal{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    width: 35%;
+    height: auto;
+  }
+
+  #ritaFinal{
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    width: 40%;
+  }
+
+  #mariaFinal{
+    margin: 0;
+    position: absolute;
+    right: 0px;
+    width: 30%;
+  }
+
+  #linikerFinal{
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    width: 35%;
+  }
+
+  #logo{
+    width: 380px;
+    height: 192px;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    
+  }
+
+  /* #elis{
+      width: 250px;
+      height: 375px;
+      margin: 0;
+      position: absolute;
+      top: 63%;
+      left: 0%;
+      z-index: 0;
+    
+  }
+  #elza{
+      width: 250px;
+      height: 375px;
+      margin: 0;
+      position: absolute;
+      top: 63%;
+      left: 180px;
+      z-index: 0;
+    }
+    #rita{
+        width: 257px;
+        height: 328px;
+        margin: 0;
+        position: absolute;
+        top: 68%;
+        left: 400px;
+        z-index: 0;
+      }
+    #maria{
+      width: 285px;
+      height: 367px;
+      margin: 0;
+      position: absolute;
+      top: 64%;
+      left: 580px;
+      z-index: 0;
+    }
+    #liniker{
+      width: 230px;
+      height: 343px;
+      margin: 0;
+      position: flex;
+      top: 66%;
+      left: 800px;
+      z-index: 0;
+    } */
+}
+
+
+
+
+
+
+
+	
