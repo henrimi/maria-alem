@@ -1,8 +1,26 @@
 ﻿* {
   /* margin: 0 auto; */
-  font-family: lato;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 } 
+
+.rodape{
+  clear: both;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: #424242;
+
+}
+
+#UAM{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
 
 
@@ -137,7 +155,6 @@
 
     .h2t{
       font-size: 22px;
-      color: #9E54BD;
       font-family: lato;
     }
 
@@ -247,7 +264,6 @@
 
     .h2t{
       font-size: 22px;
-      color: #9E54BD;
       font-family: lato;
     }
 
@@ -435,12 +451,16 @@
     height: 100vh;
   }
 
-  /* .home{
-    background-image: url(imagens/background.png);
-  } */
+  .h2t{
+    font-size: 48px;
+    font-style: inherit;
+    font-family: lato;
+  }
 
-  .navbar-nav {
-    margin-left: 800px;
+  #audio{
+    top: 900px;
+    left: 1400px;
+    position: absolute;
   }
 
   #fundoCapa{
@@ -502,53 +522,6 @@
     left: 70%;
     
   }
-
-  /* #elis{
-      width: 250px;
-      height: 375px;
-      margin: 0;
-      position: absolute;
-      top: 63%;
-      left: 0%;
-      z-index: 0;
-    
-  }
-  #elza{
-      width: 250px;
-      height: 375px;
-      margin: 0;
-      position: absolute;
-      top: 63%;
-      left: 180px;
-      z-index: 0;
-    }
-    #rita{
-        width: 257px;
-        height: 328px;
-        margin: 0;
-        position: absolute;
-        top: 68%;
-        left: 400px;
-        z-index: 0;
-      }
-    #maria{
-      width: 285px;
-      height: 367px;
-      margin: 0;
-      position: absolute;
-      top: 64%;
-      left: 580px;
-      z-index: 0;
-    }
-    #liniker{
-      width: 230px;
-      height: 343px;
-      margin: 0;
-      position: flex;
-      top: 66%;
-      left: 800px;
-      z-index: 0;
-    } */
 }
 
 
