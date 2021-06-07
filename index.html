@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="estilos/estilos.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	</head>
 
 	<body>	
@@ -23,22 +25,22 @@
 								<a class="nav-link active" aria-current="page" href="#">INICIO</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">MPB</a>
+								<a class="nav-link active" aria-current="page" href="#musicaPopularLink">MPB</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">ELIS REGINA</a>
+								<a class="nav-link active" aria-current="page" href="#elisReginaLink">ELIS REGINA</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">ELZA SOARES</a>
+								<a class="nav-link active" aria-current="page" href="#elzaSoaresLink">ELZA SOARES</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">RITA LEE</a>
+								<a class="nav-link active" aria-current="page" href="#ritaLeeLink">RITA LEE</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">MARIA GADU</a>
+								<a class="nav-link active" aria-current="page" href="#mariaGaduLink">MARIA GADU</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">LINIKER</a>
+								<a class="nav-link active" aria-current="page" href="#linikerLink">LINIKER</a>
 							</li>
 						</ul>
 					</div>
@@ -71,6 +73,13 @@
 		
 						<!--RITA LEE-->
 						<img id="rita" src="imagens/RITA.png" alt="Rita Lee">
+
+						<audio controls autoplay id="audio">
+							<source src="music/Pagu.mp3" type="audio/mpeg">
+						  Your browser does not support the audio element.
+						</audio>
+
+						
 					</div>
 				</section> 
 			</div>
@@ -79,11 +88,11 @@
 			<div class="container" >
 
 				<!--MPB-->
-				<section class="height-80">
+				<section class="height-80" id="musicaPopularLink">
 					<div class="content">
 						<div class="row featurette">
 								<div class="bio col-md-12 col-lg-6">
-									<h2 class="h2t">Música Popular Brasileira</h2>
+									<h2 class="h2t" style="color: #9E54BD;">Música Popular Brasileira</h2>
 									<div class="pCorpo">
 										<p>Na década de 50, a Bossa Nova fazia sucesso com sua proposta de criar músicas mais sofisticadas - com influências do samba e do jazz americano -, falando do cotidiano e das belezas do Brasil. </p>
 										<p>Ao mesmo tempo, havia um outro grupo que queria resgatar as origens da música brasileira, buscando inspiração no folclore e nos ritmos tradicionais vindos de diferentes regiões do país.</p>
@@ -102,7 +111,7 @@
 				</section>
 
 				<!-- ELIS REGINA -->
-				<section class="height-80">
+				<section class="height-80" id="elisReginaLink">
 					<div class="content">
 						<div class="row featurette">
 								<div class="col-md-12 col-lg-6">
@@ -110,7 +119,7 @@
 								</div>
 
 								<div class="bio col-md-12 col-lg-6">
-									<h2 class="h2t">Elis Regina</h2>
+									<h2 class="h2t" style="color: #D1702E;">Elis Regina</h2>
 									<div class="pCorpo">
 										<p>Elis Regina, nascida em Porto Alegre no ano de 1945, foi uma cantora de enorme sucesso no Brasil nos anos 60 e 70. Ficou conhecida por suas composições e interpretações, além de sua voz que fez com que, até hoje, a artista seja considerada por muitos a melhor cantora brasileira de todos os tempos.</p>
 										<p>Foi também uma personalidade importante no combate à ditadura militar brasileira posicionando-se contra o regime que assolou o país de 1964 a 1985. Só não foi presa e exilada devido ao seu enorme reconhecimento.</p>
@@ -132,18 +141,18 @@
 											<div class="play">
 												<img id="pause" src="imagens/Caminho 13.png">
 			
-												<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+												<img id="capaAlbum" src="imagens/Elis_Regina_-_Em_Pleno_Verão.jpg">
 			
-												<p class="nomeMusica">Como nossos pais</p>
-												<p class="nomeAlbum">Falso Brilhante</p>
-												<p class="nomeAlbum">4:22</p>
+												<p class="nomeMusica">Vou Deitar e Rolar</p>
+												<p class="nomeAlbum">Em Pleno Verão</p>
+												<p class="nomeAlbum">3:24</p>
 			
 											</div>
 			
 											<div class="play">
 												<img id="pause" src="imagens/Caminho 13.png">
 			
-												<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+												<img id="capaAlbum" src="imagens/Capa_de_Trem_Azul.jpg">
 			
 												<p class="nomeMusica">Como nossos pais</p>
 												<p class="nomeAlbum">Falso Brilhante</p>
@@ -163,11 +172,11 @@
 				</section>
 			
 				<!-- ELZA SOARES -->
-				<section class="height-80">
+				<section class="height-80" id="elzaSoaresLink">
 					<div class="content">
 						<div class="row featurette">
 							<div class="bio col-md-12 col-lg-7">
-								<h2 class="h2t">Elza Soares</h2>
+								<h2 class="h2t" style="color: #282E7F;">Elza Soares</h2>
 
 								<div class="pCorpo">
 									<p>Nascida em 1937 na favela Moça Bonita, no Rio de Janeiro, Elza Soares teve uma vida difícil. Gerou nove filhos, o primeiro aos 13 anos de idade. Cinco faleceram - sendo três de fome. Sofreu violência doméstica, foi estuprada e teve sua vida ameaçada por tiros vindos de seu primeiro companheiro. </p>
@@ -181,33 +190,33 @@
 									<div class="play">
 										<img id="pause" src="imagens/Caminho 13.png">
 	
-										<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+										<img id="capaAlbum" src="imagens/418459257348.jpg">
 	
-										<p class="nomeMusica">Como nossos pais</p>
-										<p class="nomeAlbum">Falso Brilhante</p>
-										<p class="nomeAlbum">4:22</p>
+										<p class="nomeMusica">Como Lutei</p>
+										<p class="nomeAlbum">Elza Negra, Negra Elza</p>
+										<p class="nomeAlbum">2:54</p>
 	
 									</div>
 									
 									<div class="play">
 										<img id="pause" src="imagens/Caminho 13.png">
 	
-										<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+										<img id="capaAlbum" src="imagens/A_Mulher_do_Fim_do_Mundo_(capa).png">
 	
-										<p class="nomeMusica">Como nossos pais</p>
-										<p class="nomeAlbum">Falso Brilhante</p>
-										<p class="nomeAlbum">4:22</p>
+										<p class="nomeMusica">Maria da Vila Matilde</p>
+										<p class="nomeAlbum">Mulher do Fim do Mundo</p>
+										<p class="nomeAlbum">3:45</p>
 	
 									</div>
 	
 									<div class="play">
 										<img id="pause" src="imagens/Caminho 13.png">
 	
-										<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+										<img id="capaAlbum" src="imagens/elza-negra-negra-elza.jpg">
 	
-										<p class="nomeMusica">Como nossos pais</p>
-										<p class="nomeAlbum">Falso Brilhante</p>
-										<p class="nomeAlbum">4:22</p>
+										<p class="nomeMusica">Exu nas Escolas</p>
+										<p class="nomeAlbum">Deus é Mulher</p>
+										<p class="nomeAlbum">3:45</p>
 	
 									</div>
 								</div>
@@ -222,14 +231,14 @@
 				</section>
 
 				<!-- RITA LEE -->
-				<section class="height-80">
+				<section class="height-80" id="ritaLeeLink">
 					<div class="content">
 						<div class="row featurette">
 							<div class="col-md-12 col-lg-5">
 								<img id="ritaFinal" src="imagens/RITA_FINAL.png">
 							</div>
 							<div class="bio col-md-12 col-lg-7">
-								<h2 class="h2t">Rita Lee</h2>
+								<h2 class="h2t" style="color: #AE2551;">Rita Lee</h2>
 
 								<div class="pCorpo">
 									<p>Rita Lee, nascida em 1947 em São Paulo, é uma cantora, compositora, multi-instrumentista, atriz, escritora e ativista brasileira. Ela construiu uma carreira que começou com o rock mas que ao longo dos anos flertou com diversos gêneros, como a psicodelia durante a era do tropicalismo, o pop rock, disco, new wave, a MPB, bossa nova e eletrônica.</p>
@@ -242,33 +251,33 @@
 									<div class="play">
 										<img id="pause" src="imagens/Caminho 13.png">
 	
-										<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+										<img id="capaAlbum" src="imagens/Babilonia.jpg">
 	
-										<p class="nomeMusica">Como nossos pais</p>
-										<p class="nomeAlbum">Falso Brilhante</p>
-										<p class="nomeAlbum">4:22</p>
+										<p class="nomeMusica">Disco Voador</p>
+										<p class="nomeAlbum">Babilonia</p>
+										<p class="nomeAlbum">3:08</p>
 	
 									</div>
 									
 									<div class="play">
 										<img id="pause" src="imagens/Caminho 13.png">
 	
-										<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+										<img id="capaAlbum" src="imagens/reza.jpg">
 	
-										<p class="nomeMusica">Como nossos pais</p>
-										<p class="nomeAlbum">Falso Brilhante</p>
-										<p class="nomeAlbum">4:22</p>
+										<p class="nomeMusica">Reza</p>
+										<p class="nomeAlbum">Reza</p>
+										<p class="nomeAlbum">2:26</p>
 	
 									</div>
 	
 									<div class="play">
 										<img id="pause" src="imagens/Caminho 13.png">
 	
-										<img id="capaAlbum" src="imagens/Falso_Brilhante.jpg">
+										<img id="capaAlbum" src="imagens/RitaLee_Fruto_Proibido.jpg">
 	
-										<p class="nomeMusica">Como nossos pais</p>
-										<p class="nomeAlbum">Falso Brilhante</p>
-										<p class="nomeAlbum">4:22</p>
+										<p class="nomeMusica">Cartão Postal</p>
+										<p class="nomeAlbum">Fruto Proibido</p>
+										<p class="nomeAlbum">3:25</p>
 	
 									</div>
 								</div>
@@ -278,11 +287,11 @@
 				</section>
 
 				<!-- MARIA GADU -->
-				<section class="height-80">
+				<section class="height-80" id="mariaGaduLink">
 					<div class="content">
 						<div class="row featurette">
 							<div class="bio col-md-12 col-lg-7">
-								<h2 class="h2t">Maria Gadu</h2>
+								<h2 class="h2t" style="color: #398370;">Maria Gadu</h2>
 
 								<div class="pCorpo">
 									<p>Maria Gadú nasceu em São Paulo em 1986. É cantora, compositora, instrumentista e produtora já indicada cinco vezes ao Grammy Latino. Começou a cantar aos 7 anos de idade e, aos 13, já se apresentava em bares e festas de família.</p>
@@ -336,14 +345,14 @@
 				</section>
 
 				<!-- LINIKER -->
-				<section class="height-80">
+				<section class="height-80" id="linikerLink">
 					<div class="content">
 						<div class="row featurette">
 							<div class="col-md-12 col-lg-5">
 								<img id="linikerFinal" src="imagens/LINIKER_FINAL.png">	
 							</div>
 							<div class="bio col-md-12 col-lg-7">
-								<h2 class="h2t">Liniker</h2>
+								<h2 class="h2t" style="color: #AB3019;">Liniker</h2>
 
 								<div class="pCorpo">
 									<p>Liniker de Barros Ferreira Campos, nascida em 1995 em Araraquara, interior de SP, é uma cantora e compositora brasileira e integrante da banda Liniker e os Caramelows.</p>
@@ -393,11 +402,15 @@
 				</section>
 		
 				<!-- FOOTER -->
-				<footer class="container" style="background-color: #424242; margin: 0;">
-					<p class="float-end"><a href="#">Back to top</a></p>
-					<p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-				</footer>
+				
 		</main>
+
+		<footer >
+			<div class="rodape">
+				<img id="UAM" src="imagens/logo-branco-300x80.png">
+			</div>
+			
+		</footer>
 
 		<!-- <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
 
